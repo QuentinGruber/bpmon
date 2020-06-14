@@ -1,4 +1,5 @@
 const MusicTempo = require("music-tempo");
+const writeJson = require("write-json");
 
 exports.calcTempo = function (buffer) {
   var audioData = [];
@@ -15,6 +16,5 @@ exports.calcTempo = function (buffer) {
   }
   var mt = new MusicTempo(audioData);
 
-  console.log("tempo : ", mt.tempo);
-  console.log("beat : " + mt.beats);
+  writeJson.sync("output.json", { tempo: mt.tempo, beats: mt.beats });
 };

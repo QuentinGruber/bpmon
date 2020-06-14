@@ -18,6 +18,7 @@
   "homepage": "https://github.com/QuentinGruber/bpmon#readme",
   "dependencies": {
     "music-tempo": "^1.0.3",
-    "web-audio-api": "^0.2.2"
+    "web-audio-api": "^0.2.2",
+    "write-json": "^3.0.1"
   }
 }
