@@ -20,5 +20,12 @@
     "music-tempo": "^1.0.3",
     "web-audio-api": "^0.2.2",
     "write-json": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "audiofile",
+    "json",
+    "tempo",
+    "beat"
+  ]
 }
