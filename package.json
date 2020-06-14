@@ -1,0 +1,23 @@
+{
+  "name": "bpmon",
+  "version": "1.0.0",
+  "description": "Register tempo/beat info of an audiofile inside a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinGruber/bpmon.git"
+  },
+  "author": "Quentin Gruber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuentinGruber/bpmon/issues"
+  },
+  "homepage": "https://github.com/QuentinGruber/bpmon#readme",
+  "dependencies": {
+    "music-tempo": "^1.0.3",
+    "web-audio-api": "^0.2.2"
+  }
+}
